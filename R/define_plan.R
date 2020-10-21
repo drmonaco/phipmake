@@ -753,7 +753,7 @@ define_plan <- function(
   }
 
   if(runAVARDA){
-    avpath <- "/data/hlarman1/PhIPdb/Software/AVARDA/"
+    avpath <- "/scratch/groups/hlarman1/Software/AVARDA/"
     avcase <- names.hits.avarda[grep("Virscan", names.hits.avarda)]
     avdf <- paste0(avpath, "bin2/my_df.csv")
     avtotal <- paste0(avpath, "bin2/total_probability_xr2.csv")
